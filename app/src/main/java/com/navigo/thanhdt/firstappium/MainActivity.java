@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String username = String.valueOf(edtName.getText());
                 String password = String.valueOf(edtPassword.getText());
-                if (username.equals("username") && password.equals("123123")) {
+                if (username.equals("username") && password.equals("sdfsdfsd")) {
                     edtResult.setText("success");
                 } else {
                     edtResult.setText("error");
